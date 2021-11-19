@@ -15,25 +15,13 @@ const Addvertisements = () => {
                             <Accordion.Item eventKey="0">
                                 <Accordion.Header>We know our Customers</Accordion.Header>
                                 <Accordion.Body>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                    est laborum.
+                                    We have a strong relationship with our customers and we always look forward to connect to our customers. Our customers has always been proud of the products they use from us, therefore to make them proud and to keep them satisfied with our products, we always work harder to increase our standard and always keep us ahead in the market of JACKETs.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="1">
                                 <Accordion.Header>We always research about their needs</Accordion.Header>
                                 <Accordion.Body>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                    est laborum.
+                                    Everyday, huge changes are being brought in the markets. Leather markets shifted recently from the traditional viewpoint to the dynamic style sensations. We always conduct researches on these style trends and also from the scientific significance of the clothing industry. We thus offer you the best fabric but in very low and affordable prices.
                                 </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>
