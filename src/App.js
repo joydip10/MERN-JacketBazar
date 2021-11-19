@@ -1,11 +1,45 @@
 import logo from './logo.svg';
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Home from './Components/Home/Home/Home';
+import ExplorePage from './Components/Explore/ExplorePage';
+import ResponsiveDrawer from './Components/Dashboard/Dashboard/ResponsiveDrawer';
+import Log_Reg from './Components/Login/Log_Reg';
+import AuthProvider from './Components/AuthProvider/AuthProvider';
+import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
+import PlaceOrder from './Components/PlaceOrder/PlaceOrder';
 
 function App() {
   return (
-    <div className="App">
-     
-    </div>
+    <AuthProvider>
+    <Router>
+       <Switch>
+         <Route exact path="/">
+           <Home></Home>
+         </Route>
+          <Route exact path="/home">
+            <Home></Home>
+          </Route>
+          <Route exact path="/explore">
+            <ExplorePage></ExplorePage>
+          </Route>
+          <PrivateRoute path="/dashboard">
+            <ResponsiveDrawer></ResponsiveDrawer>
+          </PrivateRoute>
+          <Route path="/login">
+            <Log_Reg></Log_Reg>
+          </Route>
+          <PrivateRoute path="/placeOrder/:id">
+            <PlaceOrder></PlaceOrder>
+          </PrivateRoute>
+        </Switch>
+    </Router>
+    </AuthProvider>
   );
 }
 
